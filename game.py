@@ -9,8 +9,8 @@ def main():
     pygame.display.set_icon(icon)
     pygame.display.set_caption("Debt Collector")
 
-    # Makes game run at 521x643 resolution
-    screen = pygame.display.set_mode((521,643))
+    # Makes game run at 528x640 resolution
+    screen = pygame.display.set_mode((528,640))
 
     # Running loop
     running = True
