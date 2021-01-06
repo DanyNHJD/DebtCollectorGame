@@ -1,5 +1,8 @@
 import pygame
 
+# load images 
+drawbg = pygame.image.load("./sprites/bg.png")
+
 # Init main function
 def main():
     # Init PyGame module
@@ -18,6 +21,9 @@ def main():
     while running:
         # Checks all events occuring in PyGame
         for event in pygame.event.get():
+            # draw images
+            screen.blit(drawbg,(0,0))
+            pygame.display.flip()
             # If user quits then exit
             if event.type == pygame.QUIT:
                 running = False
