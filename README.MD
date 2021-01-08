@@ -1,2 +1,2 @@
 # Debt Collector
-A 70s-inspired arcade game written in pygame
+An arcade game written in pygame
