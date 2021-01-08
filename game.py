@@ -6,7 +6,7 @@ playerWidth = 16
 playerHeight = 32
 playerPosX = 264
 playerPosY = 294
-playerVel = 1
+playerVel = 0.03
 playerAnim = 3
 playerWalkCount = 0
 
